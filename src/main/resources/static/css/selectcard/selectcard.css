@@ -1,0 +1,110 @@
+.tab_box {
+	width:995px;
+	margin:80px auto;
+}
+.lyz_tab_left {
+	background:url("../../image/selectcard/left3.jpg") no-repeat top right;
+	float: left;
+	width: 259px;
+	height: auto !important;
+	min-height:500px;
+	height:500px;
+	padding-top: 15px;
+
+}
+.pro_con1111 {
+	float: left;
+	overflow: hidden;
+	width: 249px;
+	height: auto;
+}
+.pro_con111 UL {
+	padding: 0px;
+	width: 259px;
+	list-style-type: none;
+}
+.pro_con111 UL LI {
+	padding-left: 30px;
+	display: inline;
+	font-weight: bold;
+	font-size: 14px;
+	/*background: url("../../image/selectcard/hongbj.jpg") no-repeat left center;*/
+	background-color: #89333B;
+	float: left;
+	margin-bottom: 5px;
+	width: 219px;
+	cursor: pointer;
+	color: #fff;
+	line-height: 34px;
+	height: 34px;
+	text-align: left;
+}
+.pro_con111 UL LI.hover {
+	padding-left: 30px;
+	display: inline;
+	font-weight: bold;
+	font-size: 14px;
+	background: url("../../image/selectcard/baibj.jpg") no-repeat right 50%;
+	float: left;
+	margin-bottom: 5px;
+	width: 229px;
+	cursor: pointer;
+	color: #3c3c3c;
+	line-height: 34px;
+	height: 34px;
+	text-align: left;
+}
+.lyz_tab_right {
+	padding-right: 10px;
+	display: inline;
+	padding-left: 50px;
+	background: url("../../image/selectcard/right4.jpg") no-repeat left top;
+	float: left;
+	padding-bottom: 20px;
+	width: 675px;
+	padding-top: 20px;
+	height:500px;
+}
+.clear {
+	clear:both
+}
+
+@media screen and (max-width: 920px)  {
+
+    .lyz_tab_left{
+        width: 180px;
+
+    }
+    .lyz_tab_right{
+	    padding-left: 30px;
+	    width: 550px;
+	    background-size: 540px 590px;
+    }
+    .pro_con111 UL LI {
+        padding-left: 0px;
+    }
+
+    .pro_con111 UL LI{
+    	padding-left: 0px;
+    	width: 170px;
+    }
+	.joinus_title{
+		margin-right: 30px;
+	}
+	.joinus_text{
+		width: 490px;
+	}
+	.hover{
+		line-height: 20px;
+		width: 500px;
+	}
+	.tab_box{
+		padding-left: 5%;
+		margin-top: 50px;
+		width: 770px;
+	}
+
+}
+
+
+

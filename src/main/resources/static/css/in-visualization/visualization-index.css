@@ -1,0 +1,417 @@
+/*banner图*/
+#header img {
+    width: 100%;
+}
+
+/*产品简介*/
+.header_visualization {
+    width: 1100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header_visualization .underline_title {
+    position: relative;
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.underline_title:before {
+    position: absolute;
+    content: "";
+    /* display: inline-block; */
+    width: 54PX;
+    height: 2px;
+    bottom: 28px;
+    left: 74PX;
+    margin-left: 0px;
+    background: #D4D4D4;
+}
+
+.marginLeft175 {
+    margin-left: 175px;
+}
+
+.header_visualization .underline_title_aftertext {
+    width: 905px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.decision_vis, .date_vis, .architecture_vis {
+    width: 250px;
+    height: 260px;
+    float: left;
+}
+
+.underline_title_aftertext span {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 500;
+    color: #616060;
+
+    font-family: "Lantinghei SC";
+}
+
+.header_visualization_block {
+    width: 1100px;
+    height: 260px;
+    margin-top: 100px;
+}
+.inputwidth340 {
+    width: 325px;
+}
+
+.demo-radio:checked + .demo-radioInput:after {
+    background-color: #B93945;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    margin: 2px;
+    width: 14px;
+}
+.decision_vis_imgbg_decision, .decision_vis_imgbg_data, .decision_vis_imgbg_architecture {
+    background: url("../../image/in-visualization/decision_vis_imgbg.png") no-repeat;
+    background-size: 210px 105px;
+    background-position: center;
+    height: 120px;
+}
+
+.decision_vis_imgbg_decision img, .decision_vis_imgbg_data img, .decision_vis_imgbg_architecture img {
+    display: block;
+    position: relative;
+    left: 64px;
+    top: 25px;
+    -webkit-transition: All 0.6s ease-in-out;
+    -moz-transition: All 0.6s ease-in-out;
+    -o-transition: All 0.6s ease-in-out;
+}
+
+.decision_vis_imgbg_decision img:hover, .decision_vis_imgbg_data img:hover, .decision_vis_imgbg_architecture img:hover {
+    top: 10px;
+}
+
+.decision_vis_title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    height: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.decision_vis_content {
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 5px;
+}
+
+/*中间灰色优势部分*/
+.center_superiority {
+    background-color: #EEEEEE;
+    margin-top: 130px;
+    height: 500px;
+
+}
+
+.center_superiority .center_superiority_content .sup_contitle {
+    position: relative;
+    width: 200px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 37px;
+}
+
+.center_superiority .center_superiority_content .sup_contitle:before {
+    position: absolute;
+    content: "";
+    /* display: inline-block; */
+    width: 54PX;
+    height: 2px;
+    bottom: 28px;
+    left: 74PX;
+    margin-left: 0px;
+    background: #D4D4D4;
+}
+
+.center_superiority .center_superiority_content {
+    width: 1090px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.conbody_center {
+    width: 350px;
+    float: left;
+}
+
+.conbody_left {
+    width: 370px;
+    float: left;
+}
+
+.conbody_right {
+    width: 370px;
+    float: left;
+}
+
+.center_superiority .center_superiority_content .sup_conbody {
+    /*height: 400px;*/
+    margin-top: 20px
+}
+
+.conbody_center img {
+    display: block;
+    margin: 0 auto;
+}
+
+.conbody_left .conbody_left_top .conbody_smalltitle {
+    text-align: right;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.conbody_left .conbody_left_bottom .conbody_smalltitle {
+    text-align: right;
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.conbody_left .conbody_left_top .conbody_smalltitle img {
+    display: block;
+    position: relative;
+    top: 27px;
+    left: 229px;
+}
+
+.conbody_left .conbody_left_bottom .conbody_smalltitle img {
+    display: block;
+    position: relative;
+    top: 27px;
+    left: 200px;
+}
+
+.conbody_right .conbody_smalltitle {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.conbody_right .conbody_smalltitle img {
+    position: relative;
+    top: 13px;
+}
+
+.conbody_left span {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.conbody_right span {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.conbody_left_top, .conbody_left_bottom {
+    text-align: right;
+}
+
+.conbody_left_center {
+    height: 30px;
+}
+
+.conbody_right_topH {
+    height: 14px;
+}
+
+.conbody_right_center {
+    height: 49px;
+}
+
+/*业务可视化案例*/
+
+.main_showcase_title {
+    position: relative;
+    width: 210px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.inputwidth340 {
+    width: 325px;
+}
+
+.demo-radio:checked + .demo-radioInput:after {
+    background-color: #B93945;
+    border-radius: 100%;
+    content: "";
+    display: inline-block;
+    height: 14px;
+    margin: 2px;
+    width: 14px;
+}
+.main_showcase_title:before {
+    position: absolute;
+    content: "";
+    width: 54PX;
+    height: 2px;
+    bottom: 28px;
+    left: 80PX;
+    margin-left: 0px;
+    background: #D4D4D4;
+}
+
+.main_showcase {
+    margin-top: 120px;
+}
+
+.main_showcase_top {
+    width: 875px;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+
+.main_showcase_top_img1 {
+    width: 122px;
+    margin: 0 auto;
+}
+
+.main_showcase_center {
+    width: 875px;
+    margin: 0 auto;
+    padding-top: 90px;
+    padding-bottom: 180px;
+}
+
+.main_showcase_center_img1 {
+    width: 122px;
+    margin: 0 auto;
+}
+
+.main_showcase_bottom_title {
+    position: relative;
+    width: 210px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.main_showcase_bottom_title:before {
+    position: absolute;
+    content: "";
+    width: 54PX;
+    height: 2px;
+    bottom: 28px;
+    left: 80PX;
+    margin-left: 0px;
+    background: #D4D4D4;
+}
+
+.main_showcase_bottom_span {
+    text-align: center;
+}
+
+.main_showcase_bottom_img {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.main_showcase_bottom_img {
+    margin-top: 30px;
+}
+
+.main_showcase_bottom {
+    margin-bottom: 145px;
+}
+
+@media screen and (max-width: 920px) {
+
+    .header_visualization {
+        width: 760px;
+    }
+
+    .header_visualization .underline_title_aftertext {
+        width: 550px;
+    }
+
+    .header_visualization_block {
+        width: 760px;
+    }
+
+    .marginLeft175 {
+        margin-left: 5px;
+    }
+
+    .center_superiority .center_superiority_content {
+        width: 700px;
+    }
+
+    .conbody_left {
+        width: 200px;
+    }
+
+    .conbody_center {
+        width: 300px;
+    }
+
+    .conbody_right {
+        width: 200px;
+    }
+
+    .center_superiority .center_superiority_content .sup_conbody {
+        margin-top: 0px;
+    }
+
+    .conbody_left .conbody_left_top .conbody_smalltitle img {
+        left: 60px;
+    }
+
+    .conbody_left .conbody_left_bottom .conbody_smalltitle img {
+        left: 30px;
+    }
+
+    .conbody_left_center {
+        height: 0px;
+    }
+
+    .conbody_right_center {
+        height: 16px;
+    }
+
+    .conbody_center img {
+        width: 250px;
+        height: 280px;
+    }
+
+    .main_showcase_top, .main_showcase_center, .main_showcase_top_img2 img, .main_showcase_center_img2 img, .main_showcase_bottom_img img {
+        width: 760px;
+    }
+
+    .main_showcase_bottom_img {
+        width: 760px;
+    }
+    .center_superiority ,.main_showcase{
+        margin-top: 100px;
+    }
+    .main_showcase_center{
+        padding-bottom: 100px;
+    }
+    .main_showcase_bottom{
+        margin-bottom: 100px;
+    }
+}

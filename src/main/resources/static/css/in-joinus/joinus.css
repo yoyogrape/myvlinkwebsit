@@ -1,0 +1,61 @@
+.center_text {
+    margin-top: 90px;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.center_text span {
+    width: 780px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+#header img{
+    width: 100%;
+}
+.joinus_title{
+    float: left;
+    margin-right: 58px;
+}
+.joinus_title span{
+    font-weight: 600;
+}
+.joinus_text{
+    clear:both;
+    width: 620px;
+}
+.joinus_text span{
+    display: block;
+    padding-top: 25px;
+    font-weight: 600;
+
+}
+
+.lyz_tab_right{
+    font-size: 14px;
+}
+.hover{
+line-height: 1.6;
+}
+.lyz_tab_right{
+    padding-left: 50px;
+}
+
+.footer_linkTextOne{
+    height: 20px;
+    padding-bottom: 50px;
+}
+
+
+
+@media screen and (max-width: 920px)  {
+    .footer_linkTextOne{
+        padding-bottom: 42px;
+        padding-bottom: 42px;
+    }
+
+}
+
+
+
+
